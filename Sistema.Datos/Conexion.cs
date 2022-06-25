@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sistema.Datos
 {
@@ -20,7 +16,7 @@ namespace Sistema.Datos
         //Almacenara si estamos entrando con autenticacion de Windows o autenticacion de SQL Server
         private bool Seguridad;
 
-        //Para la instancion de la conexion
+        //Para la instanciacion de la conexion
         private static Conexion Con = null;
 
         //Constructor
